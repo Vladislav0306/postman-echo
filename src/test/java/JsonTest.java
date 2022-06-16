@@ -14,8 +14,6 @@ public class JsonTest {
                 .then()
                 .statusCode(200)
                 .body("data", equalTo("some data"))
-                .body("url", equalTo("https://postman-echo.com/post"))
-                .body("json", equalTo(null))
         ;
     }
 }
